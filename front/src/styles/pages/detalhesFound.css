@@ -1,0 +1,109 @@
+#page-detalhesFound {
+  width: 100%;
+
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+#page-detalhesFound .content-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 1100px;
+  margin-top: 50px;
+  height: 100%;
+  max-height: 680px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+#page-detalhesFound .content-wrapper + .content-wrapper{
+  margin-top: 50px;
+
+}
+
+
+#page-detalhesFound .content-wrapper div {
+  width: 500px;
+  min-height: 300px;
+  left: 380px;
+  top: 200px;
+  padding: 20px;
+  
+  background: #0ad8a5;
+  border-radius: 20px;
+
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: center;
+
+  color: #000000;
+
+
+}
+
+
+#page-detalhesFound .content-wrapper main div strong {
+  min-height: 30px;
+  padding: 10px;
+  max-width: 290px;
+  background: #E8E8E8;
+  border-radius: 21px;
+  outline: 0px;
+  border: 0px;
+  display: inline-block;
+}
+#page-detalhesFound .content-wrapper div img {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  left: 300px;
+  top: 0px;
+
+  border-radius: 21px;
+  outline: 0px;
+  border: 0px;
+}
+
+.botoes {
+  position: absolute;
+  top: 0;
+}
+#excluirEnviar {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 725px;
+  top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0ad8a5;
+  border-radius: 15px;
+  border: 0px;
+  outline: 0px;
+
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: center;
+  transition-duration: 0.2s;
+}
+
+#excluirEnviar:hover {
+  background-color:  #0b4d3c;
+}
+

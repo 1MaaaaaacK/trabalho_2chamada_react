@@ -1,0 +1,153 @@
+#page-home {
+    width: 100%;
+  
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  
+  #page-home .content-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    margin-top: 50px;
+    height: 100%;
+    max-height: 680px;
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+
+#page-home .content-wrapper form {
+    padding: 5px;
+    position: relative;
+}
+
+#page-home .content-wrapper #foto{
+    position: absolute;
+    left: 190px;
+    top: 450px;
+    cursor: pointer;
+}
+#foto:hover {
+    width: 85px;
+    height: 85px;
+}
+#page-home .content-wrapper #salvo{
+    position: absolute;
+    
+    left: 420px;
+    top: -10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#salvo:hover {
+    width: 70px;
+    height: 70px;
+}
+
+
+#page-home .content-wrapper div {
+    width: 500px;
+    height: 550px;
+    left: 380px;
+    top: 200px;
+    padding: 20px;
+    
+    background: #0ad8a5;
+    border-radius: 20px;
+
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+#page-home .content-wrapper div input {
+    position: relative;
+    width: 420px;
+    height: 30px;
+    padding: 10px;
+
+    background: #aeafa4;
+    border-radius: 21px;
+    outline: 0px;
+    border: 0px;
+}
+
+
+#salvar:hover {
+    background-color: #0ad8a5
+} 
+#criar {
+    position: absolute;
+    width: 250px;
+    height: 78px;
+    left: 705px;
+    top: 0px;
+
+    background: #FFFFFF;
+    border-radius: 50px 0px 0px 50px;
+    border: 0px;
+    outline: 0px;
+
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    transition-duration: 0.2s;
+}
+#criar:hover {
+    background-color: #0ad8a5
+} 
+#detalhes {
+    position: absolute;
+    width: 250px;
+    height: 78px;
+    left: 955px;
+    top: 0px;
+
+    background: #FFFFFF;
+    border-radius: 0px 50px 50px 0px;
+    border: 0px;
+    outline: 0px;
+
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    transition-duration: 0.2s;
+}
+#detalhes:hover {
+    background-color: #0ad8a5
+} 
+
+#fotos {
+    opacity: 0;
+}
+#salvar {
+    opacity: 0;
+}
+.botoes {
+    position: absolute;
+    top: 0;
+  }
